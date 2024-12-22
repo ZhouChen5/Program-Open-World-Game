@@ -7,7 +7,7 @@
 #include "BaseCharacter.generated.h"
 
 UCLASS()
-class COMBETPROJECTS_CPP_API ABaseCharacter : public ACharacter
+class PALUWORLD_API ABaseCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
@@ -44,7 +44,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "MyFunction")
 	virtual void TakeHitDamage(const float damageValue);
 
-	//角色的伤害相应
+	//陆脟脡芦碌脛脡脣潞娄脧脿脫娄
 	UFUNCTION(BlueprintCallable, Category = "MyFunction")
 	virtual void HitResponse();
 
